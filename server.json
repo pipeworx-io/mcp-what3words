@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/what3words",
+  "title": "What3words",
+  "description": "what3words MCP — 3-word grid geocoding",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/what3words",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-what3words",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/what3words/mcp"
+    }
+  ]
+}
