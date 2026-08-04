@@ -1,15 +1,24 @@
-# mcp-what3words
+# @pipeworx/what3words
 
-what3words MCP — 3-word grid geocoding
+what3words MCP — 3-word grid geocoding.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `words_to_coords` | Convert a 3-word address ("filled.count.soap") to a lat/lon centre + 3m×3m bounding box. |
-| `list_languages` | Supported languages for 3-word output (code + name). |
+- `coords_to_words(latitude, longitude, language?)`
+- `words_to_coords(words)`
+- `autosuggest(input, n_results?, focus_latitude?, focus_longitude?, country?, language?)`
+- `list_languages()`
+
+## Auth
+
+- **Platform key:** gateway env `PLATFORM_WHAT3WORDS_KEY`.
+- **BYO:** `?_apiKey=<key>` after registering at https://accounts.what3words.com/register.
+
+## Data source
+
+`https://api.what3words.com/v3/` — `?key=` query param.
 
 ## Quick Start
 
@@ -25,7 +34,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -49,7 +58,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
