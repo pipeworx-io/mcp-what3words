@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-what3words",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "what3words MCP — 3-word grid geocoding",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bff6c2b90e46a82aadeaebd20f8ff5df2ed36280a327c6116e47b0f7e326718a",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-e8b2a9873b918a1bfa56f54be09da8058996f21faf5c3727a5a1642f815b7e2b",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
