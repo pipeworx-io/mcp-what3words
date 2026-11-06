@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-what3words",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "what3words MCP — 3-word grid geocoding",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "what3words",
     "gatewaySlug": "what3words",
-    "sourceHash": "v1-b50899a46eefc64995aab87821a7c652b008fd37263b9e33645eb8b25a605e3d",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-2cdb16b524e95607f72c3d61deb316d87a6a6d2cff4af8f21e200812f9fea8a6",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
